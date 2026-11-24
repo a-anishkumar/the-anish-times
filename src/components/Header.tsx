@@ -310,6 +310,16 @@ export const Header: React.FC<HeaderProps> = ({
                 P.7 Classifieds (Contact)
               </a>
             </li>
+            <span className="text-ink-400 dark:text-night-700">•</span>
+            <li>
+              <a
+                href="#most-wanted-game"
+                onClick={() => soundFx.playTypewriterKey()}
+                className="hover:text-press-red hover:underline decoration-1 underline-offset-4 transition-colors font-bold uppercase tracking-wider text-press-red dark:text-red-400 animate-pulse-subtle"
+              >
+                P.8 🕵️ Most Wanted
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

@@ -8,6 +8,7 @@ import { TopStoriesProjects } from './components/TopStoriesProjects';
 import { HonoursCertifications } from './components/HonoursCertifications';
 import { ChronicleEducation } from './components/ChronicleEducation';
 import { ClassifiedsContact } from './components/ClassifiedsContact';
+import { MostWantedGame } from './components/MostWantedGame';
 import { Footer } from './components/Footer';
 import { VintageOverlays } from './components/VintageOverlays';
 import { UnfoldIntro } from './components/UnfoldIntro';
@@ -100,6 +101,9 @@ export const App: React.FC = () => {
 
           {/* Section 7: Page 7 • The Classifieds (Contact & Letter to Editor) */}
           <ClassifiedsContact />
+
+          {/* Section 8: Page 8 • The Criminal Gazette — Most Wanted Game */}
+          <MostWantedGame />
         </div>
       </main>
 
