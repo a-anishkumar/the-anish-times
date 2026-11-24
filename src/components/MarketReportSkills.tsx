@@ -10,7 +10,7 @@ export const MarketReportSkills: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [activeSkill, setActiveSkill] = useState<SkillItem | null>(null);
 
-  const categories = ['All', 'Frontend', 'Backend', 'Database & Tools', 'Core & Security'];
+  const categories = ['All', 'Frontend', 'Backend', 'Database & Tools', 'Core Engineering'];
 
   const filteredSkills =
     selectedCategory === 'All'
@@ -46,7 +46,7 @@ export const MarketReportSkills: React.FC = () => {
               </span>
             </div>
             <p className="font-typewriter text-xs text-ink-600 dark:text-night-muted">
-              Market Sentiment: Strongly Bullish on Full-Stack Scalability & Defensive Hardening
+              Market Sentiment: Strongly Bullish on Full-Stack Scalability & High-Performance Engineering
             </p>
           </div>
 
@@ -211,3 +211,4 @@ export const MarketReportSkills: React.FC = () => {
     </section>
   );
 };
+

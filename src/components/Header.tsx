@@ -208,7 +208,7 @@ export const Header: React.FC<HeaderProps> = ({
           </h1>
 
           <p className="font-headline italic text-sm sm:text-base text-ink-700 dark:text-stone-300 mt-1">
-            “The Premier Broadsheet of Computing Innovations, Systems Security, and Software Craftsmanship”
+            “The Premier Broadsheet of Computing Innovations, Full-Stack Architecture, and Software Craftsmanship”
           </p>
         </div>
 

@@ -55,10 +55,10 @@ export const EditorialAbout: React.FC = () => {
               </div>
               <div>
                 <h6 className="font-headline font-bold text-xs text-ink-950 dark:text-stone-100">
-                  1. Defensive by Design
+                  1. Resilient Architecture
                 </h6>
                 <p className="font-body text-[11px] text-ink-700 dark:text-night-muted leading-tight mt-0.5">
-                  Security is not a final-layer bandaid. Input sanitation, zero-trust state checks, and encryption are built in from line one.
+                  Reliability is not an afterthought. Robust error handling, strict state consistency, and fail-safe designs are built in from line one.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ export const EditorialAbout: React.FC = () => {
                   At Kongu Engineering College, studying Computer Science and Design (CSD) has taught me that aesthetics and engineering are not opposing forces. The cleanest user interface in React is useless if the underlying REST API buckles under concurrent load or leaks authentication tokens.
                 </p>
                 <p className="mb-4">
-                  Conversely, the most impenetrable Java backend is wasted if human users cannot intuitively navigate its corridors. True craftsmanship is the harmonic synthesis of both: resilient database schema design, defensive cybersecurity postures, and delightful typography that respects the human eye.
+                  Conversely, the most impenetrable Java backend is wasted if human users cannot intuitively navigate its corridors. True craftsmanship is the harmonic synthesis of both: resilient database schema design, high-throughput backend performance, and delightful typography that respects the human eye.
                 </p>
               </div>
             </div>

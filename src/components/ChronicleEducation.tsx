@@ -114,3 +114,4 @@ export const ChronicleEducation: React.FC = () => {
     </section>
   );
 };
+

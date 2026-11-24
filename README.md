@@ -1,7 +1,7 @@
 # 🗞️ The Anish Times — Broadsheet Portfolio
 
 > *“All the Code That’s Fit to Deploy”*  
-> The official broadsheet newspaper portfolio of **Anish Kumar A**, Full-Stack Developer & Cybersecurity Enthusiast (B.E. Computer Science and Design, Kongu Engineering College, Class of 2027, CGPA 7.79).
+> The official broadsheet newspaper portfolio of **Anish Kumar A**, Full-Stack Developer & Software Craftsman (B.E. Computer Science and Design, Kongu Engineering College, Class of 2027, CGPA 7.79).
 
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -38,14 +38,14 @@
 2. **Infinite Wire Dispatch (Breaking Ticker)**:
    - Scrolling breaking news ticker with pause-on-hover controls.
 3. **Front Page & Lead Investigation**:
-   - Headline: *“ANISH KUMAR A: FULL-STACK DEVELOPER & CYBERSECURITY ENTHUSIAST BUILDS THE FUTURE”* (Typewriter animated reveal)
+   - Headline: *“ANISH KUMAR A: FULL-STACK DEVELOPER & SOFTWARE CRAFTSMAN BUILDS THE FUTURE”* (Typewriter animated reveal)
    - Halftone engraved portrait with clickable halftone/sharp toggle.
    - B.E. CSD Kongu Engineering College credential highlights.
 4. **Editorial Desk (About)**:
-   - Column layout with drop cap, pull-quote, the 3 engineering tenets (Defensive by Design, Edge/Offline Sovereignty, Relational/Graph Integrity), and editor signature.
+   - Column layout with drop cap, pull-quote, the 3 engineering tenets (*Resilient Architecture*, *Edge & Offline Sovereignty*, *Relational & Graph Integrity*), and editor signature.
 5. **The Market Report (Skills)**:
-   - Styled as the *Anish Code Exchange (ACX)* stock ticker with live candlestick-style depth bars, prices, and trend indicators for Java, React.js, Node.js, SQL, Python, Tailwind, Cybersecurity, Git, and C.
-   - Sector filters: Frontend, Backend, Database & Tools, Core & Security.
+   - Styled as the *Anish Code Exchange (ACX)* stock ticker with live candlestick-style depth bars, prices, and trend indicators for Java, React.js, Node.js, SQL, Python, Tailwind, System Design, Git, and C.
+   - Sector filters: Frontend, Backend, Database & Tools, Core Engineering.
 6. **Top Stories (Projects)**:
    - **Aura**: Autonomous offline AI companion with zero-cloud edge LLM & voice execution.
    - **Hostel Room Allocation System**: High-concurrency campus housing portal with ACID room assignment.
@@ -179,3 +179,4 @@ All personal information, project scoops, skills, and links are neatly decoupled
 ## 📜 License
 Published under the [MIT License](LICENSE).  
 Printed with care by **Anish Kumar A**.
+

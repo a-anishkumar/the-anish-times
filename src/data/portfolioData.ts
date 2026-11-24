@@ -21,7 +21,7 @@ export interface Project {
 export interface SkillItem {
   name: string;
   symbol: string;
-  category: 'Frontend' | 'Backend' | 'Database & Tools' | 'Core & Security';
+  category: 'Frontend' | 'Backend' | 'Database & Tools' | 'Core Engineering';
   level: number; // 0 - 100
   trend: 'UP' | 'STEADY';
   delta: string;
@@ -67,8 +67,8 @@ export const PORTFOLIO_DATA = {
 
   personal: {
     name: 'Anish Kumar A',
-    role: 'Full-Stack Developer & Cybersecurity Enthusiast',
-    headline: 'FULL-STACK DEVELOPER & CYBERSECURITY ENTHUSIAST BUILDS THE FUTURE',
+    role: 'Full-Stack Developer & Software Craftsman',
+    headline: 'FULL-STACK DEVELOPER & SOFTWARE CRAFTSMAN BUILDS THE FUTURE',
     subhead:
       'Kongu Engineering College B.E. Computer Science & Design scholar (Class of 2027, CGPA 7.79) crafts resilient offline AI, high-availability web architectures, and knowledge intelligence systems.',
     college: 'Kongu Engineering College, Perundurai, Tamil Nadu',
@@ -80,7 +80,7 @@ export const PORTFOLIO_DATA = {
     linkedin: 'https://linkedin.com/in/anishkumar-a-b751b5337',
     github: 'https://github.com/a-anishkumar',
     editorBio: [
-      'From the quiet coding sanctum of Tamil Nadu emerges a dedicated engineer with a dual passion: engineering seamless full-stack digital architectures while rigorously fortifying systems against modern threat vectors.',
+      'From the quiet coding sanctum of Tamil Nadu emerges a dedicated engineer passionate about engineering high-performance full-stack architectures, scalable web applications, and intelligent autonomous systems.',
       'Currently pursuing a Bachelor of Engineering in Computer Science and Design at Kongu Engineering College (CGPA 7.79), Anish combines deep algorithmic thinking with modern software craftsmanship. Whether building offline-first autonomous AI assistants or developing graph-powered research tools, every system is constructed with speed, privacy, and architectural elegance.',
       'Driven by curiosity, Anish treats code like a daily printing press: ink never dries on progress, and every commit is an editorial statement of reliability and quality.'
     ],
@@ -92,7 +92,7 @@ export const PORTFOLIO_DATA = {
   breakingTicker: [
     'BREAKING: Anish Kumar A currently seeking Summer 2025/2026 Internships and Full-Time Engineering roles!',
     'TECH DISPATCH: ResearchGap AI deploys hybrid RAG & Knowledge Graphs for instant scientific discovery',
-    'SECURITY ALERT: Zero-compromise offline AI "Aura" proves privacy and speed can coexist locally',
+    'TECH ALERT: Zero-cloud offline AI "Aura" proves privacy, autonomy, and speed can coexist locally',
     'CAMPUS BULLETIN: Hostel Room Allocation System eliminates campus queuing through automated algorithmic distribution',
     'INNOVATION WIRE: Snap2Code transforms hand-drawn whiteboard wireframes directly into functional React code',
     'HONOURS DESK: Oracle APEX (May 2025) & Java SE 17 (May 2026) verified on national registry',
@@ -112,14 +112,14 @@ export const PORTFOLIO_DATA = {
       fullStory: [
         'Aura was born from a simple yet non-negotiable premise: true digital privacy requires zero internet dependencies. Operating entirely on consumer-grade hardware, Aura orchestrates local quantized large language models, fast offline speech-to-text engines, and low-latency text-to-speech synthesis.',
         'The architecture incorporates intelligent local system controls, context-aware memory caching, and modular tool-calling pipelines that can launch applications, organize files, and answer complex technical queries.',
-        'Benchmark analysis revealed near-zero latency overhead compared to cloud equivalents, making Aura an indispensable companion for confidential research, air-gapped security operations, and developer workflows.'
+        'Benchmark analysis revealed near-zero latency overhead compared to cloud equivalents, making Aura an indispensable companion for confidential research, private edge computing, and developer workflows.'
       ],
       techStack: ['Python', 'Local LLM / Ollama', 'PyAudio', 'Whisper.cpp', 'TTS Engine', 'OS Automation'],
       highlights: [
         '100% offline edge processing with complete data sovereignty',
         'Sub-second speech recognition and conversational audio response',
         'Custom modular plugin system for OS management and dev utilities',
-        'Air-gapped security model resilient against network sniffers'
+        'Autonomous offline execution model completely independent of external networks'
       ],
       githubUrl: 'https://github.com/a-anishkumar',
       demoUrl: 'https://github.com/a-anishkumar',
@@ -175,7 +175,7 @@ export const PORTFOLIO_DATA = {
       techStack: ['React', 'Node.js', 'Express', 'MySQL / PostgreSQL', 'Tailwind CSS', 'JWT Auth'],
       highlights: [
         'ACID-compliant atomic room booking preventing concurrent over-allocation',
-        'Multi-tiered role-based security: Student, Warden, and SuperAdmin dashboards',
+        'Multi-tiered role-based access: Student, Warden, and SuperAdmin dashboards',
         'Automated room occupancy visualization and automated allotment algorithm',
         'Over 90% reduction in administrative processing time recorded'
       ],
@@ -285,15 +285,15 @@ export const PORTFOLIO_DATA = {
       details: 'Custom design systems, responsive broadsheet typography, dark-mode tokenization, zero-runtime bloat.',
     },
     {
-      name: 'Cybersecurity Fundamentals',
-      symbol: 'SECX',
-      category: 'Core & Security',
-      level: 85,
+      name: 'System Design & Architecture',
+      symbol: 'ARCH',
+      category: 'Core Engineering',
+      level: 88,
       trend: 'UP',
-      delta: '+11.2%',
-      price: '85.75',
+      delta: '+8.2%',
+      price: '88.50',
       status: 'HIGH YIELD',
-      details: 'OWASP Top 10 mitigation, Network packet inspection, Cryptography, Defensive coding, Secure auth flows.',
+      details: 'Scalable system architecture, modular component design, caching strategies, REST APIs, and microservices design patterns.',
     },
     {
       name: 'Git & Version Control',
@@ -309,7 +309,7 @@ export const PORTFOLIO_DATA = {
     {
       name: 'C Programming',
       symbol: 'CPRG',
-      category: 'Core & Security',
+      category: 'Core Engineering',
       level: 84,
       trend: 'STEADY',
       delta: '+1.9%',
@@ -327,8 +327,8 @@ export const PORTFOLIO_DATA = {
       issueDate: 'May 2025',
       badgeCode: 'ORA-APX-2025-V7',
       description:
-        'Certified expertise in rapid enterprise low-code development, relational database integration, custom PL/SQL business logic, and security-hardened enterprise application deployment.',
-      skillsVerified: ['Oracle APEX', 'PL/SQL', 'Database Modeling', 'Enterprise Security', 'REST Services'],
+        'Certified expertise in rapid enterprise low-code development, relational database integration, custom PL/SQL business logic, and enterprise application deployment.',
+      skillsVerified: ['Oracle APEX', 'PL/SQL', 'Database Modeling', 'Enterprise Architecture', 'REST Services'],
       status: 'VERIFIED CREDENTIAL',
     },
     {
@@ -352,7 +352,7 @@ export const PORTFOLIO_DATA = {
       scoreOrGrade: 'Current CGPA: 7.79 / 10.0',
       location: 'Perundurai, Erode, Tamil Nadu',
       summary:
-        'Specialized undergraduate curriculum blending rigorous core computer science fundamentals—algorithms, data structures, operating systems, and network security—with user-centric digital experience design and human-computer interaction.',
+        'Specialized undergraduate curriculum blending rigorous core computer science fundamentals—algorithms, data structures, operating systems, and computer networks—with user-centric digital experience design and human-computer interaction.',
       achievements: [
         'Consistent academic performance maintaining 7.79 CGPA across technical coursework',
         'Active participant in collegiate coding hackathons, technical symposiums, and project expos',
@@ -377,7 +377,7 @@ export const PORTFOLIO_DATA = {
   classifieds: {
     wantedHeading: 'WANTED: INSPIRING CHALLENGES & HIGH-IMPACT ROLES',
     wantedNotice:
-      'Immediate vacancy sought by proactive Full-Stack Engineer and Security Craftsman. Prepared to report for duty on frontend marvels, robust API backends, or local AI architectures. Full-time, summer internships, and high-velocity engineering contracts welcomed.',
+      'Immediate vacancy sought by proactive Full-Stack Developer and Software Engineer. Prepared to report for duty on frontend marvels, robust API backends, or local AI architectures. Full-time, summer internships, and high-velocity engineering contracts welcomed.',
     contacts: [
       {
         type: 'TELEGRAPH & ELECTRONIC DISPATCH (EMAIL)',

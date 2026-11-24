@@ -154,7 +154,7 @@ export const FrontPageHero: React.FC = () => {
               <li className="flex items-start gap-1.5">
                 <span className="text-press-red font-bold">▪</span>
                 <span>
-                  <strong>Dual Focus:</strong> High-performance full-stack web engineering & proactive cybersecurity hardening.
+                  <strong>Core Focus:</strong> High-performance full-stack web engineering, scalable backends & intelligent edge systems.
                 </span>
               </li>
             </ul>

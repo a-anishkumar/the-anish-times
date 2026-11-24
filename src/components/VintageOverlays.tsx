@@ -72,3 +72,4 @@ export const VintageOverlays: React.FC<VintageOverlaysProps> = ({
     </>
   );
 };
+

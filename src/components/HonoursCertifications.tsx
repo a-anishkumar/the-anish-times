@@ -138,3 +138,4 @@ export const HonoursCertifications: React.FC = () => {
     </section>
   );
 };
+
